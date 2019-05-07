@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <!-- TITLE & FAVICON -->
+    <title>Star Wars Gif-tastic</title>
+    <link rel="icon" type="image/png" href="#" />
+    <!-- GENERAL META -->
+    <meta charset="UTF-8" />
+    <meta name="author" content="VIEN HONG" />
+    <meta name="copyright" content="&copy; 2019 VIEN HONG" />
+
+    <!-- Allow Zooming on Mobile -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1 shrink-to-fit=no"
+    />
+    <!-- CSS RESET -->
+    <link href="assets/css/reset.css" rel="stylesheet" />
+    <!-- BOOTSTRAP CDN for CSS-->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Script for Bootstrap Responsive Support-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- CUSTOM CSS -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- JQUERY CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.js"
+      integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto"
+    />
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>Star Wars Gif-tastic!</h1>
+        </div>
+        <!-- /.col-md-12 -->
+      </div>
+      <!-- /.row -->
+      <div class="row">
+        <div class="col-md-9">
+          <div id="buttonsArea"></div>
+        </div>
+        <!-- /.col-md-9 -->
+        <div class="col-md-3">
+          <form id="search-form">
+            <label class="textFormat" for="search-input"
+              >Add a Star Wars character!</label
+            >
+            <input type="text" id="search-input" /><br />
+            <input id="addTheme" type="submit" value="Submit" />
+          </form>
+        </div>
+        <!-- /.col-md-3 -->
+      </div>
+      <!-- /.row -->
+      <div class="borderThatFloats"></div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="searches"></div>
+        </div>
+        <!-- /.col-md-12 -->
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container-fluid -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
